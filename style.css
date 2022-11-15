@@ -1,3 +1,28 @@
 *{
   box-sizing: border-box;
 }
+h1{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Bungee Spice', cursive;
+  text-shadow:  1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;;
+}
+img {
+  width: 200px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  padding: 2px;
+  float: left;
+}
+body{
+  background-image: url(https://st-1.akipress.org/st_limon/8/1629873572_0.jpg);
+  width: 100%;
+}
+p{
+  font-size: 20px;
+  text-align: justify;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  text-shadow:  1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(108, 108, 156), 0 0 0.2em rgb(207, 108, 108);;
+}
