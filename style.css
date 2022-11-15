@@ -18,6 +18,8 @@ img {
 body{
   background-image: url(https://st-1.akipress.org/st_limon/8/1629873572_0.jpg);
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 p{
   font-size: 20px;
@@ -26,3 +28,24 @@ p{
   color: rgb(243, 243, 243);
   text-shadow:  1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);;
 }
+.style-1 {
+  background-color: blueviolet;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+}
+ul li {
+  display: inline;
+  list-style: none;
+}
+ul li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  outline: 200px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.style-1 a:hover {
+  background-color: rgb(205, 205, 245);
+  color: rgb(50, 71, 163);}
